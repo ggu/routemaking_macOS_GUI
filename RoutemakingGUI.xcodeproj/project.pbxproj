@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768B56FB1D48D0DA00C87C4A /* libsrc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 768B56FA1D48D0DA00C87C4A /* libsrc.a */; };
+		768B57111D48D17300C87C4A /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768B57101D48D17300C87C4A /* wrapper.cpp */; };
+		76B240C41D5165C1001036B8 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B240C31D5165C1001036B8 /* libzmq.a */; };
+		76C827AE1D525F6300F63049 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 76C827AD1D525F6300F63049 /* src */; };
+		76C827C51D526A7E00F63049 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827C41D526A7E00F63049 /* TileView.swift */; };
+		76C827C81D526AD000F63049 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827C61D526AD000F63049 /* Tile.swift */; };
+		76C827C91D526AD000F63049 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827C71D526AD000F63049 /* Coordinate.swift */; };
+		76C827CB1D526AE400F63049 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827CA1D526AE400F63049 /* Constants.swift */; };
+		76C827CD1D526BA800F63049 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827CC1D526BA800F63049 /* GridView.swift */; };
+		76C827CF1D52787600F63049 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827CE1D52787600F63049 /* Window.swift */; };
+		76C827D11D52A1D400F63049 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C827D01D52A1D400F63049 /* SidebarView.swift */; };
+		76FE09DD1D48D08700A11E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE09DC1D48D08700A11E4A /* AppDelegate.swift */; };
+		76FE09DF1D48D08700A11E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE09DE1D48D08700A11E4A /* ViewController.swift */; };
+		76FE09E11D48D08700A11E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FE09E01D48D08700A11E4A /* Assets.xcassets */; };
+		76FE09E41D48D08700A11E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FE09E21D48D08700A11E4A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		768B56FA1D48D0DA00C87C4A /* libsrc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsrc.a; path = "../../Library/Caches/CLion2016.1/cmake/generated/routemaking-c6a29deb/c6a29deb/Debug/src/libsrc.a"; sourceTree = "<group>"; };
+		768B56FC1D48D14D00C87C4A /* RoutemakingGUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoutemakingGUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		768B57101D48D17300C87C4A /* wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
+		76B240C31D5165C1001036B8 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzmq.a; path = ../../../../usr/local/Cellar/zeromq/4.1.4/lib/libzmq.a; sourceTree = "<group>"; };
+		76C827AD1D525F6300F63049 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../Sailbot/routemaking/src; sourceTree = "<group>"; };
+		76C827C41D526A7E00F63049 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		76C827C61D526AD000F63049 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		76C827C71D526AD000F63049 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		76C827CA1D526AE400F63049 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		76C827CC1D526BA800F63049 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		76C827CE1D52787600F63049 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		76C827D01D52A1D400F63049 /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		76FE09D91D48D08700A11E4A /* RoutemakingGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutemakingGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FE09DC1D48D08700A11E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76FE09DE1D48D08700A11E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76FE09E01D48D08700A11E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76FE09E31D48D08700A11E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76FE09E51D48D08700A11E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FE09D61D48D08700A11E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768B56FB1D48D0DA00C87C4A /* libsrc.a in Frameworks */,
+				76B240C41D5165C1001036B8 /* libzmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C827C01D5269F100F63049 /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				76C827C61D526AD000F63049 /* Tile.swift */,
+				76C827C71D526AD000F63049 /* Coordinate.swift */,
+			);
+			name = logic;
+			sourceTree = "<group>";
+		};
+		76C827C11D5269F900F63049 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				76C827C41D526A7E00F63049 /* TileView.swift */,
+				76C827CC1D526BA800F63049 /* GridView.swift */,
+				76C827D01D52A1D400F63049 /* SidebarView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		76FE09D01D48D08700A11E4A = {
+			isa = PBXGroup;
+			children = (
+				76B240C31D5165C1001036B8 /* libzmq.a */,
+				768B56FA1D48D0DA00C87C4A /* libsrc.a */,
+				76FE09DB1D48D08700A11E4A /* RoutemakingGUI */,
+				76FE09DA1D48D08700A11E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FE09DA1D48D08700A11E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FE09D91D48D08700A11E4A /* RoutemakingGUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FE09DB1D48D08700A11E4A /* RoutemakingGUI */ = {
+			isa = PBXGroup;
+			children = (
+				76FE09DC1D48D08700A11E4A /* AppDelegate.swift */,
+				76FE09DE1D48D08700A11E4A /* ViewController.swift */,
+				76C827CE1D52787600F63049 /* Window.swift */,
+				76FE09E01D48D08700A11E4A /* Assets.xcassets */,
+				76FE09E21D48D08700A11E4A /* Main.storyboard */,
+				76C827AD1D525F6300F63049 /* src */,
+				76FE09E51D48D08700A11E4A /* Info.plist */,
+				768B56FC1D48D14D00C87C4A /* RoutemakingGUI-Bridging-Header.h */,
+				768B57101D48D17300C87C4A /* wrapper.cpp */,
+				76C827C11D5269F900F63049 /* views */,
+				76C827C01D5269F100F63049 /* logic */,
+				76C827CA1D526AE400F63049 /* Constants.swift */,
+			);
+			path = RoutemakingGUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FE09D81D48D08700A11E4A /* RoutemakingGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FE09E81D48D08700A11E4A /* Build configuration list for PBXNativeTarget "RoutemakingGUI" */;
+			buildPhases = (
+				76FE09D51D48D08700A11E4A /* Sources */,
+				76FE09D61D48D08700A11E4A /* Frameworks */,
+				76FE09D71D48D08700A11E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoutemakingGUI;
+			productName = RoutemakingGUI;
+			productReference = 76FE09D91D48D08700A11E4A /* RoutemakingGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FE09D11D48D08700A11E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gabriel Uribe";
+				TargetAttributes = {
+					76FE09D81D48D08700A11E4A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 76FE09D41D48D08700A11E4A /* Build configuration list for PBXProject "RoutemakingGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FE09D01D48D08700A11E4A;
+			productRefGroup = 76FE09DA1D48D08700A11E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FE09D81D48D08700A11E4A /* RoutemakingGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FE09D71D48D08700A11E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C827AE1D525F6300F63049 /* src in Resources */,
+				76FE09E11D48D08700A11E4A /* Assets.xcassets in Resources */,
+				76FE09E41D48D08700A11E4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FE09D51D48D08700A11E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768B57111D48D17300C87C4A /* wrapper.cpp in Sources */,
+				76FE09DF1D48D08700A11E4A /* ViewController.swift in Sources */,
+				76C827CF1D52787600F63049 /* Window.swift in Sources */,
+				76C827CD1D526BA800F63049 /* GridView.swift in Sources */,
+				76C827C81D526AD000F63049 /* Tile.swift in Sources */,
+				76C827C51D526A7E00F63049 /* TileView.swift in Sources */,
+				76C827CB1D526AE400F63049 /* Constants.swift in Sources */,
+				76C827D11D52A1D400F63049 /* SidebarView.swift in Sources */,
+				76FE09DD1D48D08700A11E4A /* AppDelegate.swift in Sources */,
+				76C827C91D526AD000F63049 /* Coordinate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76FE09E21D48D08700A11E4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FE09E31D48D08700A11E4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76FE09E61D48D08700A11E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76FE09E71D48D08700A11E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76FE09E91D48D08700A11E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "/Users/gabrieluribe/Sailbot/routemaking/src/**";
+				INFOPLIST_FILE = RoutemakingGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Caches/CLion2016.1/cmake/generated/routemaking-c6a29deb/c6a29deb/Debug/src",
+					/usr/local/Cellar/zeromq/4.1.4/lib,
+				);
+				OTHER_CFLAGS = "-I/Users/gabrieluribe/Sailbot/routemaking/src";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GabrielUribe.RoutemakingGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoutemakingGUI/RoutemakingGUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "/Users/gabrieluribe/Sailbot/routemaking/src/**";
+			};
+			name = Debug;
+		};
+		76FE09EA1D48D08700A11E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "/Users/gabrieluribe/Sailbot/routemaking/src/**";
+				INFOPLIST_FILE = RoutemakingGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Caches/CLion2016.1/cmake/generated/routemaking-c6a29deb/c6a29deb/Debug/src",
+					/usr/local/Cellar/zeromq/4.1.4/lib,
+				);
+				OTHER_CFLAGS = "-I/Users/gabrieluribe/Sailbot/routemaking/src";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GabrielUribe.RoutemakingGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoutemakingGUI/RoutemakingGUI-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "/Users/gabrieluribe/Sailbot/routemaking/src/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FE09D41D48D08700A11E4A /* Build configuration list for PBXProject "RoutemakingGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FE09E61D48D08700A11E4A /* Debug */,
+				76FE09E71D48D08700A11E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FE09E81D48D08700A11E4A /* Build configuration list for PBXNativeTarget "RoutemakingGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FE09E91D48D08700A11E4A /* Debug */,
+				76FE09EA1D48D08700A11E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76FE09D11D48D08700A11E4A /* Project object */;
+}
