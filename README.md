@@ -9,6 +9,6 @@ The routemaking code itself was written in C++ by a few of us on UBC Sailbot whi
 ## Demo/More Info
 Here is a short video demonstrating the GUI: https://www.youtube.com/watch?v=AanXgTiSrGo.
 
-The red blobs are boats with 1 kilometer risk radii to avoid, the yellow tile is the target, and the green tiles represent the travelled path and current position through time. The grey tiles represent visited nodes (nodes that the algorithm considers for travel, but doesnt due to finding a more optimal path as we use A* search).
+The red blobs are nearby boats with 1 kilometer risk radii for our boat to avoid, the yellow tile is the target, and the green tiles represent the travelled path and current position through time. The grey tiles represent visited nodes (nodes that the algorithm considers for travel, but doesnt due to finding a more optimal path as we use A* search).
 ![Image of Screenshot]
 (https://github.com/ggu/routemaking_macOS_GUI/blob/master/screenshot.png)
